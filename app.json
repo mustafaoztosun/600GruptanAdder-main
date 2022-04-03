@@ -1,0 +1,21 @@
+{
+  "name": "Uye Ekleme",
+  "description": "Pyrogram İle Yazılmış Bir Eğlence Botu",
+  "repository": "https://github.com/Inansenden92/UyeEkleme.git",
+  "logo": "",
+  "keywords": ["telegram", "game", "pyrogram","telegram bot"],
+  "env": {
+     "STRING": {
+      "description": "String Seassion Unuzu Giriniz!"
+    },
+    "SLEEP_SURE": {
+      "description": "Nekadar Süre Bekletme İle Gruba Üye Eklensin!",
+      "value": "0"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
