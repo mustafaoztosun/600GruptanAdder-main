@@ -6,6 +6,7 @@ from os import getenv
 TOKEN = getenv("STRING")
 try:
 	sleepSure = int(getenv("SLEEP_SURE"))
+	
 except:
 	print("Lütfen Sadece Sayı Giriniz!\nSleep Süresi 0 Olarak Ayarlandı!")
 	sleepSure=1
